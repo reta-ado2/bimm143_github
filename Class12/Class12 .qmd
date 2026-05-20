@@ -1,0 +1,60 @@
+---
+title: "HW Class12 Pt.2 (Population analysis) [Q13 Q14 BoxPlot]"
+author: "Reta Ado (PID: A17814740)" 
+date: 11 May 2026 
+format: pdf 
+---
+
+## Population Scale Analysis (HW) 
+
+> Q13: Read this file into R and determine the sample size for each genotype and their corresponding median expression levels for each of these genotypes. 
+
+The sample sizes are 108 for A/A with median 31.24847, 233 for A/G with median 25.06486, and 121 for G/G with median 20.07363. 
+
+```{r}
+# Read the file
+data <- read.table("https://bioboot.github.io/bggn213_W19/class-material/rs8067378_ENSG00000172057.6.txt",
+                   header = TRUE)
+
+# Preview the data
+head(data)
+
+```
+
+```{r}
+# Sample size for each genotype
+table(data$geno)
+
+```
+
+```{r}
+# Median expression levels by genotype group
+
+median_expr <- tapply(data$exp, data$geno, median) 
+
+median_expr 
+```
+
+> Q14: Generate a boxplot with a box per genotype, what could you infer from the relative expression value between A/A and G/G displayed in this plot? Does the SNP effect the expression of ORMDL3? 
+
+The boxplot shows that individuals with the A/A genotype have higher ORMDL3 expression than individuals with the G/G genotype. The A/G group appears intermediate between A/A and G/G. This suggests that the SNP genotype is associated with ORMDL3 expression, meaning the SNP may affect ORMDL3 expression levels. Specifically, the G/G genotype is associated with lower ORMDL3 expression compared with A/A in this plot.
+
+```{r}
+library(ggplot2)
+
+ggplot(data, aes(x = geno, y = exp, fill = geno)) +
+  geom_boxplot(notch = TRUE, outlier.shape = NA) +
+  geom_jitter(width = 0.2, alpha = 0.5, color = "gray30", size = 1.5) +
+  scale_fill_manual(values = c("A/A" = "lightcoral",
+                               "A/G" = "lightgreen",
+                               "G/G" = "lightblue")) +
+  labs(x = "Genotype", y = "Expression") +
+  theme_gray() +
+  theme(legend.position = "none") 
+
+
+```
+
+
+
+
