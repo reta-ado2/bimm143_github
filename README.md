@@ -15,7 +15,7 @@ Class 7: [Machine Learning I](Class07/Class07)
 
 Class 8: [Breast Cancer Mini Project](Class08/Class08) 
 
-Class 9: [Exploratory analysis of Halloween candy](Class09/Class09) 
+Class 9: [Exploratory analysis of Halloween candy](Class09/Class09.pdf) 
 
 Class 10: [Structural Bioinformatics](Class10/Class10) 
 
