@@ -13,7 +13,7 @@ Class 6: [R functions](Class06/Class06)
 
 Class 7: [Machine Learning I](Class07/Class07) 
 
-Class 8: [Breast Cancer Mini Project](Class08/Class08) 
+Class 8: [Breast Cancer Mini Project](Class08/Class08.md) 
 
 Class 9: [Exploratory analysis of Halloween candy](Class09/Class09.pdf) 
 
