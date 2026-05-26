@@ -19,9 +19,9 @@ Class 9: [Exploratory analysis of Halloween candy](Class09/Class09)
 
 Class 10: [Structural Bioinformatics](Class10/Class10) 
 
-Class 11: [Protein Structure Prediction with AlphaFold](Class11/Class11) 
+Class 11: [Protein Structure Prediction with AlphaFold](Class11/Class11-.pdf) 
 
-Class 12: [Population analysis](Class12/Class12) 
+Class 12: [Population analysis](Class12/Class12-.pdf) 
 
 Class 13: [RNASeq analysis with DESeq](Class13/Class13) 
 
