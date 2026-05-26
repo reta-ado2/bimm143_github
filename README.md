@@ -1,9 +1,11 @@
 # Bioinformatics Class 
 
-My classwork from [BIMM143 at UC San Diego Spring 2026] (https://bioboot.github.io/bimm143_S26/) 
+My classwork from [BIMM143 at UC San Diego Spring 2026](https://bioboot.github.io/bimm143_S26/) 
 
 ## Index of classes 
 
+
+Class 4: [Intro to R](Class04/Class04)
 
 Class 5: [Data viz with ggplot2](Class05/Class05) [MD](Class05/Class05.md)
 
@@ -16,6 +18,8 @@ Class 8: [Breast Cancer Mini Project](Class08/Class08)
 Class 9: [Exploratory analysis of Halloween candy](Class09/Class09) 
 
 Class 10: [Structural Bioinformatics](Class10/Class10) 
+
+Class 11: [Protein Structure Prediction with AlphaFold](Class11/Class11) 
 
 Class 12: [Population analysis](Class12/Class12) 
 
