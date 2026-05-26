@@ -11,9 +11,17 @@ Class 6: [R functions](Class06/Class06)
 
 Class 7: [Machine Learning I](Class07/Class07) 
 
-Class 8: [something else](Class08/Class08) 
+Class 8: [Breast Cancer Mini Project](Class08/Class08) 
 
-Class 9: [something else](Class09/Class09) 
+Class 9: [Exploratory analysis of Halloween candy](Class09/Class09) 
 
-Class 10: [something else](Class10/Class10) 
+Class 10: [Structural Bioinformatics](Class10/Class10) 
+
+Class 12: [Population analysis](Class12/Class12) 
+
+Class 13: [RNASeq analysis with DESeq](Class13/Class13) 
+
+Class 14: [RNASeq mini-project](Class14/Class14) 
+
+
 
